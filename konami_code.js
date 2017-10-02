@@ -18,5 +18,6 @@ function onKeyDownHandler(e) {
       alert("Hurray!");
     }
   } else {
+    index = 0;
   }
 }
