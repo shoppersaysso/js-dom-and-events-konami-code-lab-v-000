@@ -5,7 +5,7 @@ function init() {
 
   body.addEventListener('keydown', function(input) {
     if (input.which === code) {
-      return e.preventDefault()
+      return alert('Konami Code!')
     }
   })
 }
