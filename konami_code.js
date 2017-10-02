@@ -4,8 +4,8 @@ function init() {
   const body = document.querySelector('body')
 
 
-  body.addEventListener('keydown', function() {
-    if (input.which === code) {
+  body.addEventListener('keydown', function(e) {
+    if (e.which === code) {
       return alert('Konami Code!')
     }
   })
